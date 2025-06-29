@@ -15,7 +15,8 @@
   "dependencies": {
     "@anthropic-ai/claude-code": "^1.0.35",
     "dotenv": "^17.0.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "express-async-handler": "^1.2.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
