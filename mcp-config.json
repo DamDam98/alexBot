@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "github-repos-manager-mcp"],
+      "env": {
+        "GH_TOKEN": "${GITHUB_TOKEN}",
+        "GH_ALLOWED_REPOS": "senseilyapp/lms,senseilyapp/cognition,senseilyapp/pete-presentation-editor,senseilyapp/chatbot-demo-platform,senseilyapp/moodle311,senseilyapp/pete-moodle-unified,senseilyapp/alexBot",
+        "GH_ALLOWED_TOOLS": "get_repo_contents,list_commits,list_branches,search_code,get_commit_details,list_issues,get_issue_details,list_prs,get_pr_details,list_pr_files,search_issues,search_repos,get_user_info,list_repo_collaborators,compare_commits",
+        "GH_DEFAULT_OWNER": "senseilyapp",
+        "GH_DEFAULT_REPO": "senseilyapp/lms"
+      }
+    }
+  }
+}
